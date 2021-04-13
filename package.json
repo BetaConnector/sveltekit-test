@@ -10,11 +10,11 @@
 		"@sveltejs/adapter-netlify": "next",
 		"@sveltejs/adapter-node": "next",
 		"@sveltejs/kit": "next",
-		"svelte": "^3.29.0",
-		"vite": "^2.1.0"
+		"svelte": "^3.37.0",
+		"vite": "^2.1.5"
 	},
 	"type": "module",
 	"dependencies": {
-		"faunadb": "^4.1.3"
+		"faunadb": "github:fauna/faunadb-js#esm_build"
 	}
 }

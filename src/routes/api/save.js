@@ -1,9 +1,9 @@
 
-import faunadb from 'faunadb' /* Import faunaDB sdk */
-const q = faunadb.query
+import { Client } from 'faunadb'
+import * as q from 'faunadb/query'
 
 export function post(request, res) {
-    const client = new faunadb.Client({
+    const client = new Client({
 		secret: 'YOUR_FAUNADB_SECRET'
 	});
 
